@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Pi Vision · Live detection
+  </title>
+  <link href="/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main>
+   <header>
+    <div>
+     <h1>
+      Pi Vision
+     </h1>
+     <p>
+      Live camera · Object detection
+     </p>
+    </div>
+    <span class="badge" id="connection">
+     Connecting…
+    </span>
+   </header>
+   <div class="layout">
+    <div>
+     <div class="video">
+      <div class="picture">
+       <img alt="Live camera with object detection boxes" id="camera-video" src="/stream"/>
+       <canvas aria-hidden="true" id="overlay">
+       </canvas>
+      </div>
+      <div class="caption" id="caption">
+       Waiting for camera…
+      </div>
+     </div>
+     <div class="metrics">
+      <div class="metric">
+       <strong id="frame-fps">
+        —
+       </strong>
+       <span>
+        FPS · latest completed frame
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="camera-fps">
+        —
+       </strong>
+       <span>
+        Camera FPS
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="preview-fps">
+        —
+       </strong>
+       <span>
+        Video output FPS
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="frame-latency">
+        —
+       </strong>
+       <span>
+        Capture → detection ms
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="fps">
+        —
+       </strong>
+       <span>
+        Detection FPS
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="latency">
+        —
+       </strong>
+       <span>
+        Mean inference ms
+       </span>
+      </div>
+      <div class="metric">
+       <strong id="objects">
+        —
+       </strong>
+       <span>
+        Objects in latest result
+       </span>
+      </div>
+     </div>
+    </div>
+    <aside class="panel">
+     <label for="model">
+      Detection model
+     </label>
+     <select disabled="" id="model">
+     </select>
+     <p id="hint">
+     </p>
+     <label for="confidence">
+      Confidence
+      <span id="threshold">
+       35%
+      </span>
+     </label>
+     <input id="confidence" max="95" min="25" step="5" type="range" value="35"/>
+     <p aria-live="polite" id="message" role="status">
+     </p>
+     <small>
+      Choose a model to switch the live feed. The first switch may pause briefly while it loads. All viewers share the selected model.
+     </small>
+     <small>
+      Video shows only frames that completed detection. Latest-frame FPS uses elapsed time between completed results, including waits and processing. Detection and video-output FPS show a 3-second average. Camera FPS is separate.
+     </small>
+    </aside>
+   </div>
+   <section class="classes">
+    <h2 id="classes-title">
+     Detectable classes
+    </h2>
+    <div class="chips" id="classes">
+    </div>
+   </section>
+  </main>
+  <script defer="" src="/app.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "model": "yolo11s",
+    "weights_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt",
+    "ultralytics": "8.3.85",
+    "pnnx": "20260526",
+    "input_size": [
+      640,
+      640
+    ],
+    "files": {
+      "model.ncnn.bin": "28bfcc37193d08758a76bbf8010bbe3f60217e05c846ee325bf447122b6906ea",
+      "model.ncnn.param": "c0e627104c86148a7b6c3c12174012c13f5ef4b3dc7fe3f48a45c05a04d29386",
+      "metadata.yaml": "3956dcde1259ca22711c2a1bcca5bcf51dcf54b283525ba1fe7a53999a9b84e3"
+    }
+  },
+  {
+    "model": "yolo11m",
+    "weights_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m.pt",
+    "ultralytics": "8.3.85",
+    "pnnx": "20260526",
+    "input_size": [
+      640,
+      640
+    ],
+    "files": {
+      "model.ncnn.bin": "4e2d8dc0fc60715b0b59771dc345b386c4c29f4912ef07c1061225e215f160f9",
+      "model.ncnn.param": "e35a95a8c8bdc7706587b87fbf1069e1d98b30a527089305e891fcaced94f39c",
+      "metadata.yaml": "a35b9dc1e2ebfbbac95f52b375cd3289fcaed185eefd9366aaa5a0e52a69d84b"
+    }
+  }
+]

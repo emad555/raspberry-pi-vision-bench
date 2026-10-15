@@ -1,0 +1,9 @@
+# Optional export environment. Runtime detection does not need PyTorch.
+-r requirements.txt
+ultralytics==8.3.85
+torch==2.8.0
+torchvision==0.23.0
+pnnx==20260526
+py-cpuinfo==9.0.0
+# Keep the optional export environment on a NumPy-1-compatible OpenCV wheel.
+opencv-python==4.11.0.86

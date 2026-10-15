@@ -1,0 +1,42 @@
+[
+  {
+    "path": "models/mobilenet-ssd/model.param",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenet_ssd_voc_ncnn.param",
+    "sha256": "9037a264b516746d9bc8eb2eb60372075a45eed8e591a6085bae67b818adbaa8"
+  },
+  {
+    "path": "models/mobilenet-ssd/model.bin",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenet_ssd_voc_ncnn.bin",
+    "sha256": "0a8becce85221eaeb1030c3e74893df82377f29dd9a669d6b514a47894d76e03"
+  },
+  {
+    "path": "models/mobilenetv2_ssdlite_voc/model.param",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenetv2_ssdlite_voc.param",
+    "sha256": "5c63ecbfc6d663221d10d0dc12c77fe1748edca4c17a6585570d80ef53f8dae7"
+  },
+  {
+    "path": "models/mobilenetv2_ssdlite_voc/model.bin",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenetv2_ssdlite_voc.bin",
+    "sha256": "84d68e398f65cfd8c405ce8fc5d79f36ad0b0d6ea791c331776e2e21482f3a56"
+  },
+  {
+    "path": "models/mobilenetv3_ssdlite_voc/model.param",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenetv3_ssdlite_voc.param",
+    "sha256": "3891feb0c21f5bf369986152d2c51abeac7d7a94db499f4d93c6891be4e3e4ff"
+  },
+  {
+    "path": "models/mobilenetv3_ssdlite_voc/model.bin",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/mobilenetv3_ssdlite_voc.bin",
+    "sha256": "b6fc3e63b1a3b53ee3b09b2c9c584db02ee590fa49c1aabbce710f7e7f9bf085"
+  },
+  {
+    "path": "models/squeezenet-ssd/model.param",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/squeezenet_ssd_voc.param",
+    "sha256": "b77d13f58c87008148c3dcd8475325e12b070e8092ddf41a7bf93126198c2532"
+  },
+  {
+    "path": "models/squeezenet-ssd/model.bin",
+    "url": "https://raw.githubusercontent.com/nihui/ncnn-assets/45681cf121a3b12caab69c94f8b0ca336024e054/models/squeezenet_ssd_voc.bin",
+    "sha256": "db146ce37b951ee291b7f276d36cc98e102b3250311213d58527074c3ca49add"
+  }
+]

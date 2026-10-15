@@ -1,0 +1,38 @@
+# Local Python environments, build/export work, and editor caches
+.venv*/
+.export-work/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Runtime logs, process IDs, traces, credentials, and generated captures
+*.log
+*.pid
+.env
+.env.*
+*.pem
+*.key
+core
+core.*
+gstshark_*/
+benchmark*.jpg
+sample.jpg
+*-validation.json
+camera-source-fps.json
+fps-validation.json
+benchmarks.json
+preview-benchmarks.json
+yolo-sm-benchmarks.json
+
+# Downloaded model assets (provenance/checksum manifests remain tracked)
+models/*/
+*.pt
+*.torchscript
+*.onnx
+*.bin
+outputs/
+# Legacy local microbenchmark (superseded by benchmark_models.py)
+benchmark_preview.py
